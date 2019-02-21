@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtNickname" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" TextWrapping="Wrap" Text="Thurau" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtMeldung" HorizontalAlignment="Left" Height="40" Margin="228,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" RenderTransformOrigin="0.515,0.502"/>
+        <TextBox x:Name="txtVerlauf" HorizontalAlignment="Left" Height="301" Margin="10,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="636,10,0,0" VerticalAlignment="Top" Width="146" Height="40" Click="Button_Click"/>
+    </Grid>
+</Window>
